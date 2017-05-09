@@ -9,7 +9,7 @@ class ProfileCard extends Component {
       <div className='card'>
         <ProfilePicture />
         <h2>{this.props.username}</h2>
-        <ProfileAbout description=''/>
+        <ProfileAbout description={this.props.description}/>
       </div>
       )
   }
