@@ -35,10 +35,18 @@
   height: 100%;
 }
 
+.nav-list {
+  position: absolute;
+}
+
 .nav-list li:hover {
   text-shadow: 0 0 10px white;
 }
 
 .nav-list li {
   transition: .5s;
+}
+
+.contact-content {
+  text-align: left;
 }

@@ -27,12 +27,12 @@ class App extends Component {
           logo={logo}
           onClick={(i) => this.go(i)}
         />
-        <div className='container full-height top-padding'>
-          <div className='col-md-10'>
-            <Content content={this.state.content}/>
-          </div>
-          <div className='col-md-2 col-md-offset-10'>
+        <div className='container-fluid full-height top-padding'>
+          <div className='col-md-2'>
             <ProfileCard username={username} description={description}/>
+          </div>
+          <div className='col-md-8'>
+            <Content content={this.state.content}/>
           </div>
         </div>
       </div>
