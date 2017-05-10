@@ -3,19 +3,21 @@ import Home from '../components/home'
 import About from '../components/about'
 import Contact from '../components/contact'
 
+
+var pages = {
+  home: <Home />,
+  about: <About />,
+  contact: <Contact />,
+}
+
 class Content extends Component {
-  constructor(){
-    super();
-    this.state = {
-      content: <Home />
-    }
-  }
   render(){
+    var content = pages[this.props.content]
     return (
-      <div className='content'>
-        {this.state.content}
-      </div>
-      )
+    <div className='content'>
+      {content}
+    </div>
+    )
   }
 }
 

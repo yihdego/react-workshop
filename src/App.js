@@ -9,13 +9,27 @@ var description = 'A just-outside-of-the-city boy with a penchant for shorts and
 var username = 'Ian Peter Greenburg'
 
 class App extends Component {
+  constructor(){
+    super()
+    this.state = {
+      content: 'home'
+    }
+  }
+  go(i){
+    this.setState({
+      content: i.target.id
+    })
+  }
   render() {
     return (
       <div className="App full-height">
-        <Navbar logo={logo}/>
+        <Navbar
+          logo={logo}
+          onClick={(i) => this.go(i)}
+        />
         <div className='container full-height top-padding'>
           <div className='col-md-10'>
-            <Content />
+            <Content content={this.state.content}/>
           </div>
           <div className='col-md-2 col-md-offset-10'>
             <ProfileCard username={username} description={description}/>
