@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import ProfileCard from './containers/profile_card'
-import Content from './containers/content'
-import Navbar from './containers/navbar'
-import $ from 'jquery'
+import ProfileCard from './profile_card'
+import Content from './content'
+import Navbar from './navbar'
 
 var description = 'A just-outside-of-the-city boy with a penchant for shorts and Ruby.'
 var username = 'Ian Peter Greenburg'
@@ -20,15 +18,10 @@ class Page extends Component {
       content: i.target.id
     })
   }
-
   render() {
-    if (this.state.loading){
-
-    }
     return (
-      <div>
+      <div className='page'>
         <Navbar
-          logo={logo}
           onClick={(i) => this.go(i)}
         />
         <div className='container-fluid top-padding'>
