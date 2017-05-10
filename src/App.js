@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import BasicComponent from './components/BasicComponent'
+
 class App extends Component {
   render() {
     return (
@@ -12,9 +14,9 @@ class App extends Component {
           <h2>React Profile Workshop</h2>
         </div>
 
-        <p className="App-intro">
-          This is the starting point to build your app on top of!
-        </p>
+        <div className="App-intro">
+          <BasicComponent />
+        </div>
 
       </div>
     );
