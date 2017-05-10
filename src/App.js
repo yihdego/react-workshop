@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ProfileCard from './containers/profile_card'
 import Content from './containers/content'
+import Navbar from './containers/navbar'
 
 var description = 'A just-outside-of-the-city boy with a penchant for shorts and Java.'
 var username = 'Ian Peter Greenburg'
@@ -11,10 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App full-height">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h4>React Workshop Profile Page</h4>
-        </div>
+        <Navbar logo={logo}/>
         <div className='container full-height top-padding'>
           <div className='col-md-10'>
             <Content />

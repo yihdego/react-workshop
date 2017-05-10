@@ -4,13 +4,16 @@ import About from '../components/about'
 import Contact from '../components/contact'
 
 class Content extends Component {
-
+  constructor(){
+    super();
+    this.state = {
+      content: <Home />
+    }
+  }
   render(){
     return (
       <div className='content'>
-        <Home />
-        <About />
-        <Contact />
+        {this.state.content}
       </div>
       )
   }
