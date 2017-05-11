@@ -19,7 +19,13 @@ class Home extends Component {
           </dl>
 
 
-          <p>Cum audissem Antiochum, Brute, ut solebam, cum M. Quis enim potest istis, quae te, ut ais, delectant, brevibus et acutis auditis de sententia decedere? Haec et tu ita posuisti, et verba vestra sunt. Non pugnem cum homine, cur tantum habeat in natura boni; Sed fac ista esse non inportuna; Neminem videbis ita laudatum, ut artifex callidus comparandarum voluptatum diceretur. Ergo id est convenienter naturae vivere, a natura discedere. Que Manilium, ab iisque M. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. </p>
+          <p>My approach to web development is highly informed by my education in biology:
+            An ample amount of research prep, an equal amount of plan designing and execution,
+            topped with a heaping spoonful of wacky/logical creativity. I especially enjoy
+            focusing on the small technical details that can make or break the functionality
+            of an entire program.
+            Anywhere I can do research and solve complex problems is somewhere I will be happy.
+          </p>
           <div>
             <ProjectCard image={'food'} url={'https://whatsie.herokuapp.com'}/>
             <ProjectCard image={'robot'} url={'https://psklrmrfi.herokuapp.com'}/>
