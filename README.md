@@ -82,3 +82,6 @@ Going back to `App.js`, let's add in a prop for name. To do that we can declare 
 Checking back with your browser we should be seeing your name there! but why is your name appearing below this line? People fairly familiar probably know that div's are block-level elements and take up the entire width of the container they are within. We don't want that so let's fix this. as we can see in the Name Component the div already has a spot to accept props to define its class. (in es2015 class has another meaning so className must be used instead to declare a class.) Our CSS file already has a class called 'inline' that will fix this.  Your task now is to use props to make Hello and your name appear on the same line.
 
 ## Release 3 - Creating a Website
+
+now let's create the home page for our website!
+to begin type into the terminal `git checkout step-3`

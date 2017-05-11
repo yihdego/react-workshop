@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-// import BasicComponent from './components/BasicComponent'
-import Name from './components/Name'
+import ProfileCard from './components/ProfileCard'
+import Content from './components/Content'
 
 class App extends Component {
   render() {
@@ -15,9 +14,16 @@ class App extends Component {
           <h2>React Profile Workshop</h2>
         </div>
 
-        <div className="App-intro">
-          Hello, <Name />
+      <div className='page'>
+        <div className='container-fluid top-padding'>
+          <div className='col-md-2'>
+            <ProfileCard />
+          </div>
+          <div className='col-md-8'>
+            <Content />
+          </div>
         </div>
+      </div>
 
       </div>
     );
