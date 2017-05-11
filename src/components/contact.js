@@ -1,19 +1,28 @@
 import React, {Component} from 'react'
+import pinterest from '../icons/pinterest.svg'
+import linkedin from '../icons/linkedin.png'
+import snapchat from '../icons/snapchat.svg'
+import twitter from '../icons/twitter.svg'
+import facebook from '../icons/facebook.svg'
 
 class Contact extends Component {
   render(){
     return (
       <div className='contact'>
-        <h1> Contact Filler </h1>
+        <h1> Contact </h1>
         <div className='contact-content'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='http://loripsum.net/' target='_blank'>Sed tamen intellego quid velit.</a> <a href='http://loripsum.net/' target='_blank'>Qualem igitur hominem natura inchoavit?</a> Sint ista Graecorum; Duo Reges: constructio interrete. Sed fortuna fortis; </p>
+          <p>Please contact me about job opportunities, links to cool tutorials that you find helpful, cutting-edge bio research articles or recipes that  absolutely blow your mind. </p>
 
-          <ul>
-            <li>Fortemne possumus dicere eundem illum Torquatum?</li>
-            <li>Egone non intellego, quid sit don Graece, Latine voluptas?</li>
-            <li>Aliter homines, aliter philosophos loqui putas oportere?</li>
-            <li>Illa tamen simplicia, vestra versuta.</li>
-            <li>Nos commodius agimus.</li>
+          <ul className='contact-links'>
+            <li>Email: Iangreenborg@hotmail.net</li>
+            <li>Phone: (206)-235-6862-425-7189</li>
+            <div className='list-inline'>
+            <li><a href='https://www.linkedin.com/'><img src={linkedin} className='icon'/></a></li>
+            <li><a href='https://www.facebook.com/'><img src={facebook} className='icon' /></a></li>
+            <li><a href='https://twitter.com/probirdrights?lang=en'><img src={twitter} className='icon' /></a></li>
+            <li><a href='http://snapchat.com/'><img src={snapchat} className='icon' /></a></li>
+            <li><a href='https://www.pinterest.com/'><img src={pinterest} className='icon' /></a></li>
+            </div>
           </ul>
         </div>
       </div>

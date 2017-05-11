@@ -4,18 +4,13 @@ class About extends Component {
   render(){
     return (
       <div className='about'>
-        <h1> About Filler </h1>
+        <h1> About Me </h1>
         <div className='about-content'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non est ista, inquam, Piso, magna dissensio. Sed quae tandem ista ratio est? Quid est igitur, cur ita semper deum appellet Epicurus beatum et aeternum? </p>
-
-          <p>Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Naturales divitias dixit parabiles esse, quod parvo esset natura contenta. Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Bestiarum vero nullum iudicium puto. Duo Reges: constructio interrete. Itaque hic ipse iam pridem est reiectus; </p>
-
-          <p>Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; Ita multo sanguine profuso in laetitia et in victoria est mortuus. Quid est enim aliud esse versutum? Nunc de hominis summo bono quaeritur; Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Nulla erit controversia. At enim hic etiam dolore. </p>
-
-          <p>Itaque hic ipse iam pridem est reiectus; Quod autem principium officii quaerunt, melius quam Pyrrho; A primo, ut opinor, animantium ortu petitur origo summi boni. Sin laboramus, quis est, qui alienae modum statuat industriae? Urgent tamen et nihil remittunt. Id enim natura desiderat. Quae cum dixisset paulumque institisset, Quid est? Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Apud imperitos tum illa dicta sunt, aliquid etiam coronae datum; Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. </p>
-
-          <p>Iubet igitur nos Pythius Apollo noscere nosmet ipsos. Sed potestne rerum maior esse dissensio? Nunc haec primum fortasse audientis servire debemus. Audeo dicere, inquit. Hanc ergo intuens debet institutum illud quasi signum absolvere. At certe gravius. Teneo, inquit, finem illi videri nihil dolere. Non enim, si omnia non sequebatur, idcirco non erat ortus illinc. </p>
-
+          <p>My original interest in programming sprouted while a friend of mine switched majors in college from linguistics to computer science. Seeing him parlance his skills from linguistics to cse made me wonder what skills I had that could transition well. I was studying cellular biology at the time, a math enthusiast and also a lover of sudoku puzzles. </p>
+          <p>The summer after my junior year, I had a large amount of free time which I would normally fill with more work hours. With encouragement from the same friend I instead decided then would be the time to take a computer programming course. Initially I went into the class with no expectations, having had others insist the course would just ruin my GPA. Luckily it turned out that coding was really fun!</p>
+          <p>Part of what I find fun is the similarity between understanding code and creating physiology experiments. There is a flow of information/signalling that gets passed around the system and determines the system’s state. When a part of the system isn’t functioning as expected, strange outcomes occur. I take great pride in my ability to debug and read code and a lot of that ability comes from knowing how to design a biology experiment. Isolating the system components and controlling the variables simplify and organize the process to determine where things are breaking down and set up how to fix what’s wrong (assuming error messages didn’t already make it clear).</p>
+          <p>What programming offers me, that  biology can’t as easily, is the ability to create my own environments to play around in instead of creating experiments for existing ones. This helps support a higher level of creativity, that outside of cooking, I don’t normally get to experience. Having mostly never been inspired to create in more traditional artistic media, programming helped scratch an itch I hadn’t fully realized was there. </p>
+          <p>My end goal for my career in programming is to eventually return to university to study computational biology. I want to combine the intellectual joy I get from researching biological systems and the creative stimulation from designing programs. I hope to program software for agricultural research equipment similar to what I used to work with in my undergrad. Especially the type of equipment that is used to assess crop growing conditions, which with the onset of climate change will be necessary to keep farming and harvesting capabilities efficient enough to support the ever growing population. </p>
         </div>
       </div>
       )

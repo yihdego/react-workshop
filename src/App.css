@@ -89,3 +89,11 @@ html, body {
 .projectIcon {
   width: 100px;
 }
+
+.icon {
+  width: 75px;
+}
+
+.contact-links {
+  list-style: none;
+}
