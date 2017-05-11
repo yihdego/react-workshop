@@ -37,6 +37,7 @@ jspm_packages
 .node_repl_history
 
 ## create-react-app's generic ignore
+
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -54,5 +55,3 @@ jspm_packages
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
