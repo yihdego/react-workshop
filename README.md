@@ -1,4 +1,4 @@
-# React Workshop
+# React Workshop - Day 1
 
 ### Intro
   Welcome to the DBC Seattle React Workshop Day 1. Throughout this curriculum you will be building a personal web page in order to learn how to break a web page down to it's base building blocks and use React to design a site.
@@ -82,3 +82,22 @@ Going back to `App.js`, let's add in a prop for name. To do that we can declare 
 Checking back with your browser we should be seeing your name there! but why is your name appearing below this line? People fairly familiar probably know that div's are block-level elements and take up the entire width of the container they are within. We don't want that so let's fix this. as we can see in the Name Component the div already has a spot to accept props to define its class. (in es2015 class has another meaning so className must be used instead to declare a class.) Our CSS file already has a class called 'inline' that will fix this.  Your task now is to use props to make Hello and your name appear on the same line.
 
 ## Release 3 - Creating a Website
+
+now let's create the home page for our website!
+to begin type into the terminal `git checkout step-3`
+
+using this picture as an example, break this down to it's possible components.
+![example page](/images/example_page.png?raw=true "Example Page")
+
+Using a white board, plan out the components necessary to recreate the profile card and the content. Once you have ask an instructor or one of the mentors and explain your reasoning to them. Once done start building out the provided ProfileCard and Content components. Feel free to use whatever images or information you would like to make the page uniquely you.
+
+## Stretch Release
+
+If you finish both of these before today's workshop ends feel free to make 'Home', About' and 'Contact' components. Then have Content hold all of these components.
+
+
+
+# React Workshop - Day 2
+
+http://g.recordit.co/Hiz3UBMQ15.gif
+![example page 2](/images/example_page_2.gif?raw=true "Example Page 2")
