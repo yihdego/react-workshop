@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-//import BasicComponent from './components/BasicComponent'
+// import BasicComponent from './components/BasicComponent'
+import Name from './components/Name'
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
         </div>
 
         <div className="App-intro">
-          This is the starting point to build your app on top of!
+          Hello, <Name />
         </div>
 
       </div>
