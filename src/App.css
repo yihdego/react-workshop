@@ -38,6 +38,11 @@
 
 .card {
   margin: 0 auto;
+  text-align:center;
+}
+
+.card img {
+  width: 200px;
 }
 
 .top-padding {
