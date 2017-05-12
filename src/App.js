@@ -21,7 +21,7 @@ class App extends Component {
   }
   componentDidMount(){
     setTimeout(this.fade, 2300);
-    setTimeout(this.doneLoading.bind(this), 2900);
+    setTimeout(this.doneLoading.bind(this), 4500);
   }
   componentDidUpdate() {
     this.fade()
