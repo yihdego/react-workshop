@@ -1,4 +1,7 @@
 # React Workshop Curriculum
 
-[Day 1 Curriculum](/curriculum/day1.md)
-[Day 2 Curriculum](/curriculum/day2.md)
+May 22nd, 2017
+[Day 1](/curriculum/day1.md)
+
+May 24th, 2017
+[Day 2](/curriculum/day2.md)
