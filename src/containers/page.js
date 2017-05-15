@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProfileCard from './profile_card'
 import Content from './content'
 import Navbar from './navbar'
+import $ from 'jquery'
 
 var description = 'A just-outside-of-the-city boy with a penchant for shorts and Ruby.'
 var username = 'Ian Peter Greenburg'
@@ -18,9 +19,12 @@ class Page extends Component {
       content: i.target.id
     })
   }
+  componentDidMount(){
+    $('.App').css('background-color', 'white')
+  }
   render() {
     return (
-      <div className='page'>
+      <div className='page full-height'>
         <Navbar
           onClick={(i) => this.go(i)}
         />

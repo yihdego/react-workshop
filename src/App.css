@@ -6,6 +6,7 @@ html, body {
   text-align: center;
   background-color: #0D0D0D;
   transition: 2s opacity;
+  overflow:auto;
 }
 
 .fade-out {
@@ -44,6 +45,11 @@ html, body {
 }
 
 .card {
+  margin: 0 auto;
+  text-align:center;
+}
+
+.card img {
   margin: 0 auto;
 }
 
