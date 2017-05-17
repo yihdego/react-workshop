@@ -1,10 +1,10 @@
 # React Workshop - Day 1
 
 ### Intro
-  Welcome to the DBC Seattle React Workshop Day 1. Throughout this curriculum you will be building a personal web page in order to learn how to break a web page down to it's base building blocks and use React to design a site.
+  Welcome to the DBC Seattle React Workshop Day 1. Throughout this curriculum you will be building a personal web page in order to learn how to break a web page down to it's base building blocks and use React to design a website.
 
 ## Release 0 - Examine a Component
-  In this release we're going to have you open up the terminal and open the folder called `/react-workshop` with `subl .`
+  In this release let's start by opening up the terminal and open the folder called `/react-workshop` with `atom .`
 
   Now we are going to be examine a basic component in React! Now let's explore what makes up a React Component.
 
