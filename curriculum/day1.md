@@ -8,10 +8,15 @@
 
   If you'd like to follow along through the code, in the terminal switch to the step-1 branch by inputting `git checkout step-1` and open up the file located at `src/components/BasicComponent.js` . If not we'll have images here as well.
 
+  ![full component](/images/basic_component_images/full_component.png?raw=true "Full Component")
+
   What you are now seeing is a Basic React Component!
   Diving in let's discuss what we see here line-by-line
 
   First, we see
+
+  ![import](/images/basic_component_images/import.png?raw=true "import")
+
   ```
   import React, {Component} from 'react'
   ```
@@ -19,6 +24,9 @@
   This line is pulling in the prototype Component that has the basic functioning every React Component needs. It is coming from the React library installed in the `/node_modules` folder for our use. Every new component file needs this line, otherwise we lose all of the coding that the React library provides.
 
   The next line of code has
+
+  ![component start](/images/basic_component_images/component_start.png?raw=true "component start")
+
   ```
   class BasicComponent extends Component {
   ```
@@ -26,12 +34,18 @@
   This line is establishing constructor object that is built upon an instance of the Component imported on line 1. It is also establishing the name of this particular component with a title that represents the funciton of this component.
 
   On line 4 we see
+
+  ![render](/images/basic_component_images/render.png?raw=true "render")
+
   ```
   render(){
   ```
   This line is more ES2015 notation that is establishing a function called render. All React components require a render function. Without it they can't fulfill their most basic purpose of rendering it's information to the given page.
 
   On line 6 we see
+
+  ![return](/images/basic_component_images/return.png?raw=true "return")
+
   ```
   return(<div> Hi, I'm a Basic Component! </div>)
   ```
@@ -39,6 +53,9 @@
   Here we are establishing exactly what this component will render. The most simple a thing a component can render is text within two div html tags. These div's are necessary to enclose the component's content. React will not build successfully if you don't have those tags or an equivalent.
 
   At the bottom of the file we find
+
+  ![export](/images/basic_component_images/export.png?raw=true "export")
+
   ```
   export default BasicComponent;
   ```
@@ -47,9 +64,7 @@
 
   In your terminal please input `npm start` and open up chrome, typing `localhost:3000` into the browser. You should now be seeing the starting point of your app in the web page looking similar to this.
 
-  <div style='border;solid 1px black'>
   ![basic component page](/images/basic_component_page.png?raw=true "Basic Component Page")
-  </div>
 
   However, what we would like to see in here is our little buddy the Basic Component. To do that look to your code and open the file `src/App.js`. Within this file you will see an import of our component commented out. Uncomment it to make it available. Take note of the similarity of this line to the imported Component from React. They differ in that the component is being pulled from a file relative to our current one.
 
