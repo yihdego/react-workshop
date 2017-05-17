@@ -1,7 +1,7 @@
 # React Workshop - Day 1
 
 ### Intro
-  Welcome to the DBC Seattle React Workshop Day 1. Throughout this curriculum you will be building a personal web page. The goal is to learn how to break a web page down to it's base building blocks and use React to control how those blocks are visualized.
+  Welcome to the DBC Seattle React Workshop Day 1. Throughout this curriculum you will be building a personal web page. The goal is to learn how to break a web page down to it's base building blocks and use React to control how those blocks are visualized. Topics flagged with superscript numbers have explanations or sources for more info at the bottom of the page.
 
 ## Release 0 - Examine a Component
   Let's start by examining and seeing what makes up a React Component.
