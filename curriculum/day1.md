@@ -47,7 +47,9 @@
 
   In your terminal please input `npm start` and open up chrome, typing `localhost:3000` into the browser. You should now be seeing the starting point of your app in the web page looking similar to this.
 
+  <div style='border;solid 1px black'>
   ![basic component page](/images/basic_component_page.png?raw=true "Basic Component Page")
+  </div>
 
   However, what we would like to see in here is our little buddy the Basic Component. To do that look to your code and open the file `src/App.js`. Within this file you will see an import of our component commented out. Uncomment it to make it available. Take note of the similarity of this line to the imported Component from React. They differ in that the component is being pulled from a file relative to our current one.
 
