@@ -18,25 +18,26 @@
   </tr>
 </table>
 
-### Setup
+
+## Setup
 Before beginning the curriculum please fork this repositor, clone it into your local machine and install the node modules.
 
-#### Forking
+### Forking
 click Fork in the top right corner of this page.
 
-#### Cloning
+### Cloning
 Within your repository click the 'Clone or download' and then the clipboard icon.
 
 Then in your terminal input `git clone <paste github url here>` .
 
-#### Module Install
+### Module Install
 While within the head directory of the repository on your machine run `npm install` in your terminal.
 
 
-### After Setup
+## After Setup
 Please click through to the appropriate day of the workshop.
 
-### Resources
+## Resources
 
 [Terminal Cheat Sheet](https://www.git-tower.com/blog/content/posts/32-command-line-cheat-sheet/command-line-cheat-sheet-large01.png)
 
