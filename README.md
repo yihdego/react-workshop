@@ -5,7 +5,7 @@
       May 22nd, 2017
     </td>
     <td>
-      [Day 1](/curriculum/day1.md)
+      <a href='/curriculum/day1.md'>Day 1</a>
     </td>
   </tr>
   <tr>
@@ -13,7 +13,7 @@
       May 24th, 2017
     </td>
     <td>
-      [Day 2](/curriculum/day2.md)
+      <a href='/curriculum/day2.md'>Day 2</a>
     </td>
   </tr>
 </table>
