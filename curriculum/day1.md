@@ -69,17 +69,17 @@
   However, what we would like to see in here is our little buddy the Basic Component. To do that look to your code and open the file `src/App.js`. Within this file you will see an import of our component commented out. Uncomment it to make it available. Take note of the similarity of this line to the imported Component from React. They differ in that the component is being pulled from a file relative to our current one.
 
   So now that we have access to this component how are we going to put it to use? React relies on the use of JSX(JavaScript XML)<sup>2</sup> notation to refer to derived components. JSX at it's most basic can be treated like self-enclosed html/xml tags. So when we want to input our component we would include `<BasicComponent />`
-  Let's throw that content in, in place of the text in the App-intro div. Save your page, check your browser and should now see our basic component saying hi!
+  Let's throw that content in, in place of the text in the App-intro div. Save your page, check your browser and should now see our Basic Component saying hi!
 
 ## Release 1 - Create a Component
 
-Now that we have a working understanding of a basic component, lets make one of our own! Open up the file `src/MyFirstComponent.js` to see a component skeleton. Set this component up to have a message of its own and then have it render within the Basic Component.
+Now that we have a working understanding of a component, lets make one of our own! Open up the file `src/MyFirstComponent.js` to see a component skeleton. Set this component up to have a message of its own and then have it render within the Basic Component.
 
 For more practice, make your own component in a new file and have that one render within the Basic Component as well!
 
 ## Release 2 - Components with Props
 
-Now that we have created some basic components let's throw some variables around!
+Now that we have created some simple components let's throw some variables around!
 
 Oftentimes components should change what they are rendering based on the different information they are given. This information transfer happens through the passing of props<sup>3</sup> from a parent component to a child contained within.
 
@@ -118,9 +118,9 @@ Using this picture as an example, break this site down to its possible component
 
 If you finish before today's workshop ends feel free to make 'Home', 'About' and 'Contact' components. Then have Content hold all of these components.
 
-<sup>1</sup> Read more about ES2015 [here(https://babeljs.io/learn-es2015/)
+<sup>1</sup> Read more about ES2015 [here](https://babeljs.io/learn-es2015/)
 
-<sup>2</sup> Read more about JSX [here(https://facebook.github.io/jsx/)
+<sup>2</sup> Read more about JSX [here](https://facebook.github.io/jsx/)
 
 <sup>3</sup> Props, short for properties, are variables that can be passed into a React component.
 
