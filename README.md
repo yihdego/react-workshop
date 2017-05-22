@@ -21,10 +21,10 @@
 ### Setup
 Before beginning the curriculum please fork this repository and then clone it into your local machine
 
-##### Forking
+#### Forking
 click Fork in the top right corner of this page
 
-##### Cloning
+#### Cloning
 Within your repository click the 'Clone or download' and then the clipboard icon.
 Then in your terminal input `git clone <paste github url here>`
 
