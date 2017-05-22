@@ -19,18 +19,22 @@
 </table>
 
 ### Setup
-Before beginning the curriculum please fork this repository and then clone it into your local machine
+Before beginning the curriculum please fork this repositor, clone it into your local machine and install the node modules.
 
 #### Forking
-click Fork in the top right corner of this page
+click Fork in the top right corner of this page.
 
 #### Cloning
 Within your repository click the 'Clone or download' and then the clipboard icon.
 
-Then in your terminal input `git clone <paste github url here>`
+Then in your terminal input `git clone <paste github url here>` .
+
+#### Module Install
+While within the head directory of the repository on your machine run `npm install` in your terminal.
+
 
 ### After Setup
-Please click through to the appropriate day of the workshop
+Please click through to the appropriate day of the workshop.
 
 ### Resources
 
