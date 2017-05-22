@@ -119,6 +119,9 @@ Using this picture as an example, break this site down to its possible component
 If you finish before today's workshop ends feel free to make 'Home', 'About' and 'Contact' components. Then have Content hold all of these components.
 
 <sup>1</sup> Read more about ES2015 [here(https://babeljs.io/learn-es2015/)
+
 <sup>2</sup> Read more about JSX [here(https://facebook.github.io/jsx/)
-<sup>3</sup> Props, short for properties, are variables that can be passed into a React component
+
+<sup>3</sup> Props, short for properties, are variables that can be passed into a React component.
+
 <sup>4</sup>In ES2015 class has another meaning so className must be used instead to declare an element's class.
