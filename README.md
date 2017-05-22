@@ -1,10 +1,22 @@
 # React Workshop Curriculum
-
-May 22nd, 2017
-[Day 1](/curriculum/day1.md)
-
-May 24th, 2017
-[Day 2](/curriculum/day2.md)
+<table>
+  <tr>
+    <td>
+      May 22nd, 2017
+    </td>
+    <td>
+      [Day 1](/curriculum/day1.md)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      May 24th, 2017
+    </td>
+    <td>
+      [Day 2](/curriculum/day2.md)
+    </td>
+  </tr>
+</table>
 
 ### Setup
 Before beginning the curriculum please fork this repository and then clone it into your local machine
