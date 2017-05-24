@@ -1,28 +1,30 @@
-import React, {Component} from 'react'
-import $ from 'jquery'
+import React, { Component } from 'react';
+import $ from 'jquery';
 
 class ProfilePicture extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      user: {avatar_url: ""}
-    }
+      user: { avatar_url: '' },
+    };
   }
+
   componentWillMount() {
-    $.get({url: 'https://api.github.com/users/ianpetergreenburg'})
+    $.get({ url: 'https://api.github.com/users/ianpetergreenburg' })
     .then((userdata) => {
       this.setState({
-        user: userdata
-      })
-    })
+        user: userdata,
+      });
+    });
   }
-  render(){
+
+  render() {
     return (
       <div>
         <img src={this.state.user.avatar_url} className="img-rounded img-responsive" alt='profile'/>
       </div>
-      )
+    );
   }
 }
 
-export default ProfilePicture
+export default ProfilePicture;

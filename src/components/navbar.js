@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
-import logo from '../logo.svg';
+import React, { Component } from 'react';
+import logo from '../images/logo.svg';
 
 class Navbar extends Component {
-  render(){
+  render() {
     return (
       <nav className='navbar'>
         <div className="App-header">
@@ -19,8 +19,8 @@ class Navbar extends Component {
           </div>
         </div>
       </nav>
-      )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;

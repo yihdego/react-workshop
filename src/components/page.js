@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import ProfileCard from './profile_card'
-import Content from './content'
-import Navbar from './navbar'
-import $ from 'jquery'
+import ProfileCard from './profile_card';
+import Content from './content';
+import Navbar from './navbar';
+import $ from 'jquery';
 
-var description = 'A just-outside-of-the-city boy with a penchant for shorts and Ruby.'
-var username = 'Ian Peter Greenburg'
+var description = 'A just-outside-of-the-city boy with a penchant for shorts and Ruby.';
+var username = 'Ian Peter Greenburg';
 
 class Page extends Component {
-  constructor(){
-    super()
+  constructor() {
+    super();
     this.state = {
       content: 'home',
-    }
+    };
   }
-  go(i){
+  go(i) {
     this.setState({
-      content: i.target.id
-    })
+      content: i.target.id,
+    });
   }
-  componentDidMount(){
-    $('.App').css('background-color', 'white')
+  componentDidMount() {
+    $('.App').css('background-color', 'white');
   }
   render() {
     return (

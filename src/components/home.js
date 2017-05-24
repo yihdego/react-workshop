@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
-import ProjectCard from './project'
+import React, { Component } from 'react';
+import ProjectCard from './project';
 
 class Home extends Component {
-  render(){
+  render() {
     return (
       <div className='home'>
         <h1> Home </h1>
@@ -32,12 +32,13 @@ class Home extends Component {
             <ProjectCard image={'backpack'} url={'https://scramble.herokuapp.com'}/>
           </div>
           <blockquote cite='http://loripsum.net'>
-            An investment in knowledge pays the best interest. -Benjamin Franklin, <i>The Way to Wealth</i>
+            An investment in knowledge pays the best interest. -Benjamin Franklin,
+            <i>The Way to Wealth</i>
           </blockquote>
         </div>
       </div>
-      )
+    );
   }
 }
 
-export default Home
+export default Home;

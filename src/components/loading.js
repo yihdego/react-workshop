@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import loading from '../loading.gif'
+import loading from '../images/loading.gif';
 
 class Loading extends Component {
-  render(){
+  render() {
     return (
       <div className='Loading'>
         <img src={loading} alt='loading' className='loading' />
       </div>
-      )
+    );
   }
 }
 
-export default Loading
+export default Loading;
