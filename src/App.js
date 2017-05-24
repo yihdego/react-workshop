@@ -1,40 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
-import Page from './containers/page'
-import Loading from './components/loading'
-import $ from 'jquery'
+import ProfileCard from './components/profile_card';
+import Content from './components/content';
+import Navbar from './components/navbar';
 
 class App extends Component {
-  constructor(){
-    super()
-    this.state = {
-      loading: true
-    }
-  }
-  doneLoading(){
-    this.setState({
-      loading: false
-    })
-  }
-  fade(){
-    $('.App').toggleClass('fade-out')
-  }
-  componentDidMount(){
-    setTimeout(this.fade, 2300);
-    setTimeout(this.doneLoading.bind(this), 4000);
-  }
-  componentDidUpdate() {
-    setTimeout(this.fade(), 300)
-  }
-
   render() {
-    var page = <Page />
-    if (this.state.loading){
-      page = <Loading />
-    }
     return (
-      <div className="App full-height">
-        {page}
+      <div className='App'>
+        <div className='page full-height'>
+          <Navbar />
+          <div className='container-fluid top-padding'>
+            <div className='col-md-2'>
+              <ProfileCard />
+            </div>
+            <div className='col-md-8'>
+              <Content />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

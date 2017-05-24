@@ -4,7 +4,7 @@ class ProfileAbout extends Component {
   render() {
     return (
       <div>
-        {this.props.description}
+        A just-outside-of-the-city boy with a penchant for shorts and Ruby.
       </div>
     );
   }

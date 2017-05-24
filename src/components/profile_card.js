@@ -7,8 +7,8 @@ class ProfileCard extends Component {
     return (
       <div className='card'>
         <ProfilePicture />
-        <h2>{this.props.username}</h2>
-        <ProfileAbout description={this.props.description}/>
+        <h2>Ian Peter Greenburg</h2>
+        <ProfileAbout />
       </div>
     );
   }

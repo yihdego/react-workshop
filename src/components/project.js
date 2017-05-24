@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import food from '../Food-Dome.svg';
-import robot from '../Robot.svg';
-import backpack from '../Backpack_icon.svg';
+import food from '../images/Food-Dome.svg';
+import robot from '../images/Robot.svg';
+import backpack from '../images/Backpack_icon.svg';
 
 var pictures = {
   food: food,

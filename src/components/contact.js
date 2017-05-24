@@ -20,21 +20,29 @@ class Contact extends Component {
             <li>Phone: (206)-235-6862-425-7189</li>
             <div className='list-inline'>
             <li>
-              <a href='https://www.linkedin.com/'><img src={linkedin} className='icon'/></a>
-            </li>
-            <li>
-              <a href='https://www.facebook.com/'><img src={facebook} className='icon' /></a>
-            </li>
-            <li>
-              <a href='https://twitter.com/probirdrights?lang=en'>
-                <img src={twitter} className='icon' />
+              <a href='https://www.linkedin.com/'>
+                <img src={linkedin} className='icon' alt='linkedin'/>
               </a>
             </li>
             <li>
-              <a href='http://snapchat.com/'><img src={snapchat} className='icon' /></a>
+              <a href='https://www.facebook.com/'>
+                <img src={facebook} className='icon' alt='facebook' />
+              </a>
             </li>
             <li>
-              <a href='https://www.pinterest.com/'><img src={pinterest} className='icon' /></a>
+              <a href='https://twitter.com/probirdrights?lang=en'>
+                <img src={twitter} className='icon' alt='twitter'/>
+              </a>
+            </li>
+            <li>
+              <a href='http://snapchat.com/'>
+                <img src={snapchat} className='icon' alt='snapchat' />
+              </a>
+            </li>
+            <li>
+              <a href='https://www.pinterest.com/'>
+                <img src={pinterest} className='icon' alt='pinterest' />
+              </a>
             </li>
             </div>
           </ul>
