@@ -1,4 +1,19 @@
 # React Workshop Curriculum
+
+## Setup
+Before beginning the curriculum please fork this repository, clone it into your local machine and install the node modules.
+
+### Forking
+click Fork in the top right corner of this page.
+
+### Cloning
+Within your repository click the 'Clone or download' and then the clipboard icon.
+
+Then in your terminal input `git clone <paste github url here>` .
+
+### Module Install
+While within the head directory of the repository on your machine run `npm install` in your terminal.
+
 <table>
   <tr>
     <td>
@@ -17,21 +32,6 @@
     </td>
   </tr>
 </table>
-
-
-## Setup
-Before beginning the curriculum please fork this repositor, clone it into your local machine and install the node modules.
-
-### Forking
-click Fork in the top right corner of this page.
-
-### Cloning
-Within your repository click the 'Clone or download' and then the clipboard icon.
-
-Then in your terminal input `git clone <paste github url here>` .
-
-### Module Install
-While within the head directory of the repository on your machine run `npm install` in your terminal.
 
 
 ## After Setup
