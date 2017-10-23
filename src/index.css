@@ -8,4 +8,13 @@ body {
   width: 200px;
   box-shadow: 0 0 5px 5px royalblue;
   border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 15px;
 }

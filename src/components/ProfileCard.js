@@ -5,7 +5,12 @@ class ProfileCard extends Component {
     return(
       <div>
         <img src={this.props.picture} className={this.props.class}/>
-      Hi, I'm where the profile card goes
+        <div className="title">
+          {this.props.nickname}
+        </div>
+        <div className="name">
+           {this.props.name}
+        </div>
       </div>)
   }
 }
