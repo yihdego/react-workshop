@@ -3,3 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.smackdown-profile {
+  width: 200px;
+  box-shadow: 0 0 5px 5px royalblue;
+  border-radius: 25px;
+}
