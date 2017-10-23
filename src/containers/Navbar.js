@@ -9,8 +9,8 @@ class Navbar extends Component {
           <div className='container'>
             <ul className='list-inline nav-left nav-list'>
               <li onClick={this.props.onClick} id='home'>Home</li>
-              <li onClick={this.props.onClick} id='about'>About</li>
-              <li onClick={this.props.onClick} id='contact'>Contact</li>
+              <li onClick={this.props.onClick} id='about'>Signature Moves</li>
+              <li onClick={this.props.onClick} id='contact'>Promotional Images</li>
             </ul>
             <div className='brand'>
               <img src={logo} className="App-logo" alt="logo" />
