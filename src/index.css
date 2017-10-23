@@ -12,9 +12,25 @@ body {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .name {
-  font-size: 15px;
+  font-size: 1.2em;
+}
+
+.summary {
+  width: 600px;
+  font-size: 1.2em;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.promotions {
+  width: 400px;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+.promotion {
+  text-align: left;
 }
