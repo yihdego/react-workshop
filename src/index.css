@@ -25,13 +25,14 @@ body {
   margin: auto;
   margin-bottom: 10px;
 }
-.promotions {
+.content {
   width: 400px;
   font-size: 1.2em;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
-.promotion {
+.content-li {
   text-align: left;
 }
 
